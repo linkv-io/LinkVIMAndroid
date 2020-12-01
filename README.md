@@ -3,6 +3,14 @@
 LinkV 即时通讯（IM ） SDK 提供了低延时、高并发且稳定可靠的全球即时消息服务，帮助您快速实现直播间聊天室，点对点消息等实时场景应用。
 * 商务合作与技术交流请加QQ群：**1160896626**
 
+## Demo下载体验
+
+[点我安装Demo或扫描下方二维码下载](https://www.pgyer.com/AcDn)
+
+![](https://www.pgyer.com/app/qrcode/AcDn)
+
+
+
 # 概述
 
 
