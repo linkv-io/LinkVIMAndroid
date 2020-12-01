@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">LINKV IM DEMO</string>
+    <string name="title_chat_private">私信聊天</string>
+    <string name="title_chat_room">房间: %1$s</string>
+    <string name="tip_input_msg_or_target_id">消息内容和对方用户ID不能为空</string>
+    <string name="tip_input_user_id">请输入不小于四位数的用户ID</string>
+    <string name="pls_input_user_id">请输入对方的用户ID</string>
+    <string name="tip_input_room_id">请输入房间号</string>
+    <string name="pls_input_msg">请输入消息内容</string>
+    <string name="send">发送</string>
+    <string name="room_msg">房间消息</string>
+    <string name="private_msg">私信消息</string>
+    <string name="login">登录</string>
+    <string name="login_succeed_uid">登陆成功 用户ID:  %1$s</string>
+    <string name="login_succeed">登陆成功</string>
+    <string name="confirm">确认</string>
+    <string name="pls_login_first">您必须先登录!</string>
+    <string name="session_list">会话列表</string>
+    <string name="logout">退出登录</string>
+    <string name="popup_item_start_chat">开始聊天</string>
+    <string name="popup_item_create_group">创建群组</string>
+    <string name="popup_item_create_room">创建聊天室</string>
+    <string name="ok">确定</string>
+    <string name="chat_with_user">与用户 %1$s 的聊天</string>
+    <string name="default_room">默认聊天室</string>
+    <string name="about_linkv">关于 LinkV</string>
+
+    <string-array name="tab_names">
+        <item>会话</item>
+        <item>聊天室</item>
+        <item>我</item>
+    </string-array>
+
+</resources>

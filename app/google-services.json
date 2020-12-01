@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "235055406892",
+    "firebase_url": "https://im-demo-2c99e.firebaseio.com",
+    "project_id": "im-demo-2c99e",
+    "storage_bucket": "im-demo-2c99e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235055406892:android:9bb884ecff3aeb7dac9689",
+        "android_client_info": {
+          "package_name": "com.cmcm.cmimexcemple"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235055406892-jvvs2go3b69tskde5e25qi32kpgm5pel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB476g6wX2pUsq_b4l6z-7l9WWjFdmpWds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235055406892-jvvs2go3b69tskde5e25qi32kpgm5pel.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

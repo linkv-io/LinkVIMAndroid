@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">LINKV IM DEMO</string>
+    <string name="title_chat_private">My private chat message</string>
+    <string name="title_chat_room">Room: %1$s</string>
+    <string name="tip_input_msg_or_target_id">Message content or user ID can not be null</string>
+    <string name="tip_input_user_id">User ID must can not less than 3 characters</string>
+    <string name="pls_input_user_id">Please input target user ID</string>
+    <string name="tip_input_room_id">Please input room ID</string>
+    <string name="pls_input_msg">Please input message content</string>
+    <string name="send">Send</string>
+    <string name="room_msg">Room message</string>
+    <string name="private_msg">Private message</string>
+    <string name="login">Login</string>
+    <string name="login_succeed_uid">Login succeed User ID:  %1$s</string>
+    <string name="login_succeed">Login succeed</string>
+    <string name="confirm">Confirm</string>
+    <string name="pls_login_first">Please login first!</string>
+    <string name="session_list">会话列表</string>
+    <string name="logout">logout</string>
+    <string name="popup_item_start_chat">start new chat</string>
+    <string name="popup_item_create_group">Create group</string>
+    <string name="popup_item_create_room">Create chat room</string>
+    <string name="ok">OK</string>
+    <string name="chat_with_user">Chat with user %1$s</string>
+    <string name="default_room">Default room</string>
+    <string name="about_linkv">About LinkV</string>
+
+    <string-array name="tab_names">
+        <item>Chat</item>
+        <item>ChatRoom</item>
+        <item>me</item>
+    </string-array>
+
+</resources>

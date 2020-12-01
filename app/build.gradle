@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    signingConfigs {
+        release {
+            storeFile file('./imdemo.keystore')
+            storePassword '19881002'
+            keyAlias = 'imdemo.keystore'
+            keyPassword '19881002'
+        }
+        debug {
+            storeFile file('./imdemo.keystore')
+            storePassword '19881002'
+            keyPassword '19881002'
+            keyAlias = 'imdemo.keystore'
+        }
+    }
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+    defaultConfig {
+        applicationId "com.cmcm.cmimexcemple"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.release
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    api 'com.app.live:libimcore:1.0.8.2'
+//    implementation fileTree(dir: 'libs', include: ['*.aar', '*.jar'], exclude: [])
+    implementation "com.android.support:recyclerview-v7:29.0.0"
+
+    // Add the dependency for the Firebase Cloud Messaging library
+    implementation 'com.google.firebase:firebase-messaging:20.2.4'
+
+    implementation 'org.greenrobot:eventbus:3.2.0'
+
+
+}

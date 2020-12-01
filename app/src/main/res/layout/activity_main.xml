@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/title_bar_main" />
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vpFragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#CCCCCC"
+        android:layout_height="1dp"/>
+
+    <com.cmcm.cmimexcemple.main.widget.MainTabGroupView
+        android:id="@+id/tabGroupView"
+        android:layout_width="match_parent"
+        android:background="#FAFAFA"
+        android:layout_height="60dp"/>
+
+
+
+
+    <!--
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/logo_ico"
+            android:contentDescription="@null" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_btn"
+                    android:onClick="createRoom"
+                    android:text="@string/room_msg"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_btn"
+                    android:onClick="enterPrivateMsg"
+                    android:text="@string/private_msg"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_btn"
+                    android:onClick="sessionList"
+                    android:text="@string/session_list"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/bg_btn"
+                    android:onClick="logout"
+                    android:text="@string/logout"
+                    android:textColor="#FFFFFF"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    -->
+
+</LinearLayout>
